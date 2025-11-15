@@ -1,4 +1,4 @@
-public class CaesarCipher {
+public class Caesar {
 
     public static String encode(String enc, int offset) {
         offset = offset % 26 + 26;
